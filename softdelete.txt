@@ -1,0 +1,12 @@
+//Soft Delete
+
+//from table user
+
+//add a new row named (status) enum 'active' & 'deactive'
+
+//برای مثال در جدول یوزر می خواهیم یک ستون اضافه کنیم که وضعیت فعال و غیر فعال بودن کاربر رو بدونیم در اینجا عمل سافت دیلیت رو انجام میدیدم
+
+//در اینجا میخواهیم وضعیت کاربر علی محمدی را  که غیر فعال شده را دی اکتیو کنیم و برای این کار از آپدیت استفاده میکنیم
+
+UPDATE 'users' SET 'name'='Ali','family'='mohammadi','email'='alimohammadi@gmail.com','numberphone'='09130055123','status'='deactive' WHERE id=1
+
